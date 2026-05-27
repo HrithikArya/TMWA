@@ -7,6 +7,17 @@
 [![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render)](https://taskflow-api-66d3.onrender.com/api/health)
 [![API Docs](https://img.shields.io/badge/API-Swagger-blue)](https://taskflow-api-66d3.onrender.com/api/docs)
 
+## Live Links
+
+| | URL |
+|---|---|
+| Frontend | https://frontend-sigma-orcin-87.vercel.app |
+| Backend API | https://taskflow-api-66d3.onrender.com/api |
+| Swagger Docs | https://taskflow-api-66d3.onrender.com/api/docs |
+| Health Check | https://taskflow-api-66d3.onrender.com/api/health |
+
+> Note: Backend is on Render free tier — first request after inactivity takes ~30s to wake up.
+
 ---
 
 ## Tech Stack
