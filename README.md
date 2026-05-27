@@ -3,7 +3,9 @@
 > A full-stack Task Management Web Application built with React.js, Node.js/Express, and MongoDB.
 
 [![GitHub](https://img.shields.io/badge/GitHub-HrithikArya%2FTMWA-181717?logo=github)](https://github.com/HrithikArya/TMWA)
-[![API Docs](https://img.shields.io/badge/API-Swagger-blue)](http://localhost:5000/api/docs)
+[![Frontend](https://img.shields.io/badge/Frontend-Vercel-black?logo=vercel)](https://frontend-sigma-orcin-87.vercel.app)
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render)](https://taskflow-api-66d3.onrender.com/api/health)
+[![API Docs](https://img.shields.io/badge/API-Swagger-blue)](https://taskflow-api-66d3.onrender.com/api/docs)
 
 ---
 
@@ -195,13 +197,17 @@ Full documentation with request/response schemas available at `/api/docs` when t
 ## Deployment
 
 ### Backend — Render
+Live: **https://taskflow-api-66d3.onrender.com**
+
 See `render.yaml` at repo root. Set these env vars in the Render dashboard:
 - `MONGODB_URI` — MongoDB Atlas connection string
-- `CLIENT_URL` — Vercel frontend URL (e.g. `https://taskflow-app.vercel.app`)
+- `CLIENT_URL` — Vercel frontend URL (`https://frontend-sigma-orcin-87.vercel.app`)
 
 ### Frontend — Vercel
+Live: **https://frontend-sigma-orcin-87.vercel.app**
+
 See `frontend/vercel.json`. Set this env var in Vercel project settings:
-- `VITE_API_BASE_URL` — Render backend URL (e.g. `https://taskflow-api.onrender.com/api`)
+- `VITE_API_BASE_URL` — `https://taskflow-api-66d3.onrender.com/api`
 
 ---
 
