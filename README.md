@@ -2,6 +2,7 @@
 
 > A full-stack Task Management Web Application built with React.js, Node.js/Express, and MongoDB.
 
+[![GitHub](https://img.shields.io/badge/GitHub-HrithikArya%2FTMWA-181717?logo=github)](https://github.com/HrithikArya/TMWA)
 [![API Docs](https://img.shields.io/badge/API-Swagger-blue)](http://localhost:5000/api/docs)
 
 ---
@@ -13,7 +14,7 @@
 | Frontend | React 18, TypeScript, Vite |
 | Styling | Tailwind CSS v3, Dark Mode |
 | State (Auth) | React Context API |
-| State (Data) | Redux Toolkit + RTK Query |
+| State (Tasks) | Redux Toolkit (slice + createAsyncThunk) |
 | Forms | React Hook Form + Zod |
 | Backend | Node.js, Express.js, TypeScript |
 | Database | MongoDB + Mongoose |
@@ -36,6 +37,7 @@
 
 ### Bonus
 - Role-based access control (Admin / User)
+- Admin dashboard showing all users' tasks with owner info
 - Pagination (10 per page) + Search (debounced)
 - Unit & integration tests (Jest + Supertest + Vitest + RTL)
 - Deployment config (Render + Vercel)
@@ -47,7 +49,7 @@
 ## Project Structure
 
 ```
-taskflow/
+TMWA/
 ├── backend/          # Node.js + Express + TypeScript API
 │   └── src/
 │       ├── config/       # DB connection, env validation
@@ -67,15 +69,15 @@ taskflow/
 │
 ├── frontend/         # React + TypeScript + Vite SPA
 │   └── src/
-│       ├── api/          # RTK Query endpoints
-│       ├── app/          # Redux store
+│       ├── app/          # Redux store + typed hooks
+│       ├── features/     # tasks slice (state, thunks)
 │       ├── components/   # UI primitives + feature components
 │       ├── context/      # AuthContext
 │       ├── hooks/        # useAuth, useDebounce, useDarkMode
 │       ├── pages/        # LoginPage, SignupPage, DashboardPage, AdminPage
 │       ├── tests/        # Vitest + RTL test suites
 │       ├── types/        # Shared TypeScript types
-│       └── utils/        # cn, formatDate, logoutBridge
+│       └── utils/        # cn, formatDate, apiFetch, logoutBridge
 │
 ├── render.yaml       # Render deployment config
 └── BUILD_STATUS.md   # Cross-session build tracker
@@ -92,8 +94,8 @@ taskflow/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/taskflow.git
-cd taskflow
+git clone https://github.com/HrithikArya/TMWA.git
+cd TMWA
 ```
 
 ### 2. Install Dependencies
@@ -216,4 +218,5 @@ See `frontend/vercel.json`. Set this env var in Vercel project settings:
 
 ## Author
 
-**Ritik Sharma** — Full-Stack Software Engineer
+**Ritik Sharma** — Full-Stack Software Engineer  
+[GitHub](https://github.com/HrithikArya)
