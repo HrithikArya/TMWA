@@ -18,6 +18,13 @@
 
 > Note: Backend is on Render free tier — first request after inactivity takes ~30s to wake up.
 
+## Test Credentials
+
+| Role | Email | Password | Access |
+|---|---|---|---|
+| Admin | admin@taskflow.com | Admin@12345 | Full access + Admin dashboard (`/admin`) |
+| User | user@taskflow.com | User@12345 | Task management only |
+
 ---
 
 ## Tech Stack
