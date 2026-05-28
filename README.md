@@ -99,8 +99,7 @@ TMWA/
 │       ├── types/        # Shared TypeScript types
 │       └── utils/        # cn, formatDate, apiFetch, logoutBridge
 │
-├── render.yaml       # Render deployment config
-└── BUILD_STATUS.md   # Cross-session build tracker
+└── render.yaml       # Render deployment config
 ```
 
 ---

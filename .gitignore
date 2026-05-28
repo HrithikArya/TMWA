@@ -8,3 +8,5 @@ logs/
 Thumbs.db
 .vscode/
 *.tsbuildinfo
+docs/
+.claude/
