@@ -241,5 +241,5 @@ See `frontend/vercel.json`. Set this env var in Vercel project settings:
 
 ## Author
 
-**Ritik Sharma** — Full-Stack Software Engineer  
+**Ritik Kumar** — Full-Stack Software Engineer  
 [GitHub](https://github.com/HrithikArya)
